@@ -1,0 +1,13 @@
+Django==5.1.4                          # веб-фреймворк
+psycopg2-binary==2.9.10                # драйвер PostgreSQL
+redis==5.2.0                           # клиент Redis
+python-dotenv==1.0.1                   # чтение .env
+djangorestframework==3.15.2            # REST API
+djangorestframework-simplejwt==5.3.1   # JWT-авторизация
+django-cors-headers==4.3.1             # CORS
+django-filter==24.3                    # фильтрация в API
+streamlit==1.30.0                      # дашборд
+pyarrow==16.1.0                        # нужен streamlit; новее требует NumPy 2
+pandas==2.2.0                          # таблицы для дашборда
+plotly==5.18.0                         # графики для дашборда
+requests==2.32.3                       # запросы к API из дашборда
